@@ -1,0 +1,18 @@
+{
+    "request": {
+        "server": [
+            "shopee",
+            "yahoo"
+        ],
+        "item": "",
+        "need_sort": true
+    },
+    "response": [
+        {
+            "server": "",
+            "name": "",
+            "url": "",
+            "price": 0
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{{block "body" . }}
+
+<div class="container-fluid">
+    <script src="/js/result.js"></script>
+    <div class="row head-search">
+        <div class="col">
+            <p class="h1">比價網</p>
+        </div>
+    </div>
+
+    <div class="row head-search align-items-center">
+        <div class="col-10 search-box">
+            <input id="want" type="search" name="searchItem" placeholder="輸入商品">
+            <button id="search" type="button">尋找</button>
+        </div>
+        <div class="col">
+            <a href="#">登入</a>
+        </div>
+        <div class="col">
+            <a href="#">註冊</a>
+        </div>
+    </div>
+    <div class="row result">
+        <div class="col">
+            <div id="result"><a>結果</a></div>
+            
+        </div>
+    </div>
+
+</div>
+
+{{end}}

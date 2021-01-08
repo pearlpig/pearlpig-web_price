@@ -1,0 +1,34 @@
+{
+    "server": [
+        {
+            "name": "shopee",
+            "url": {
+                "home": "https://shopee.tw",
+                "search": "/search?keyword=",
+                "page": "&page=",
+                "sort": "&order=asc&sortBy=price"
+            },
+            "page_num": 10
+        },
+        {
+            "name": "ruten",
+            "url": {
+                "home": "https://find.ruten.com.tw",
+                "search": "/s/?q=",
+                "page": "&p=",
+                "sort":"&sort=prc%2Fac"
+            },
+            "page_num": 10
+        },
+        {
+            "name": "yahoo",
+            "url": {
+                "home": "https://tw.bid.yahoo.com",
+                "search": "/search/auction/product?p=",
+                "page": "&pg=",
+                "sort": "&sort=curp"
+            },
+            "page_num": 10
+        }
+    ]
+}

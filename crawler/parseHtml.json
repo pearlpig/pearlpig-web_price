@@ -1,0 +1,131 @@
+[
+    {
+        "name": "shopee",
+        "url": "https://shopee.tw/",
+        "itemList": {
+            "element": "div",
+            "attribute": {
+                "key": "class",
+                "val": "row shopee-search-item-result__items"
+            }
+        },
+        "itemGrid": {
+            "element": "div",
+            "attribute": {
+                "key": "class",
+                "val": "col-xs-2-4 shopee-search-item-result__item"
+            }
+        },
+        "itemHref": {
+            "element": "a",
+            "attribute": {
+                "key": "href"
+            },
+            "//comment": "Url is value of attribute href."
+        },
+        "itemName": {
+            "element": "div",
+            "attribute": {
+                "key": "class",
+                "val": "_1NoI8_ _16BAGk"
+            },
+            "//comment": "Name is in content"
+        },
+        "itemPrice": {
+            "element": "span",
+            "attribute": {
+                "key": "class",
+                "val": "_341bF0"
+            },
+            "//comment": "Price is in content"
+        }
+    },
+    {
+        "name": "ruten",
+        "url": "https://www.ruten.com.tw/",
+        "itemList": {
+            "element": "dd",
+            "attribute": {
+                "key": "class",
+                "val": "content"
+            }
+        },
+        "itemGrid": {
+            "element": "dl",
+            "attribute": {
+                "key": "class",
+                "val": "site_loop"
+            },
+            "subNode": {
+                "element": "dd"
+            }
+        },
+        "itemHref": {
+            "element": "a",
+            "attribute": {
+                "key": "href"
+            },
+            "//comment": "Url is value of attribute href."
+        },
+        "itemName": {
+            "element": "a",
+            "attribute": {
+                "key": "href",
+                "val": "href.Val"
+            },
+            "//comment": "Name is in content"
+        },
+        "itemPrice": {
+            "element": "span",
+            "attribute": {
+                "key": "class",
+                "val": "price"
+            },
+            "//comment": "Price is in content"
+        }
+    },
+    {
+        "name": "yahoo",
+        "url": "https://tw.bid.yahoo.com/",
+        "itemListNode": {
+            "element": "ul",
+            "attribute": {
+                "key": "class",
+                "val": "gridList"
+            }
+        },
+        "itemGridNode": {
+            "element": "li",
+            "attribute": {
+                "key": "class",
+                "val": "BaseGridItem__grid___2wuJ7"
+            }
+        },
+        "itemHref": {
+            "element": "a",
+            "attribute": {
+                "key": "href"
+            },
+            "//comment": "Url is value of attribute href."
+        },
+        "itemName": {
+            "element": "span",
+            "attribute": {
+                "key": "class",
+                "val": "BaseGridItem__title___2HWui"
+            },
+            "//comment": "Name is in content"
+        },
+        "itemPrice": {
+            "element": "span",
+            "attribute": {
+                "key": "class",
+                "val": "BaseGridItem__price___31jkj"
+            },
+            "subNode": {
+                "element": "em",
+                "//comment": "Price is in content"
+            }
+        }
+    }
+]
